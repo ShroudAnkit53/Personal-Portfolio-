@@ -11,6 +11,7 @@ import CustomCursor from "./components/CustomCursor"
 import {useState} from "react"
 import IntroAnimation from "./components/IntroAnimation"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Contact />
       <Footer />
       <Analytics/>
+      <SpeedInsights/>
     </div>
     )}
     
